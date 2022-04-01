@@ -1,0 +1,14 @@
+ul {
+	list-style-type: "\1F44D";
+}
+
+ol {
+	list-style-image: url("rocket-sml.png");
+
+}
+
+ol li {
+	border: 1px solid black;
+	margin-bottom: 5px;
+	
+}

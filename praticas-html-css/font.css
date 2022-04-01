@@ -1,0 +1,84 @@
+@font-face {
+	font-family: 'IconicFill';
+	src: url('iconic_fill.woff') format ('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.icon-next::after {
+	content: '\2192';
+	font-family: 'IconicFill';
+	margin-left: 5px;
+}
+
+h1.icon-next {
+	color: blue;
+}
+
+.icon-ok {
+	color: #489D00;
+}
+
+.icon-ok::before {
+	content: "\2714";
+	font-family: 'IconicFill';
+	margin-right: 10px;
+}
+
+.icon-invalid {
+	color: #990000;
+}
+
+.icon-invalid::before {
+	content: "\2714";
+	font-family: 'IconicFill';
+	margin-right: 10px;
+}
+
+.tnt {
+	font-family: 'Lobster',cursive;
+	font-weight: bold;
+	border-radius: 50%;
+	border: 5px solid #000;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	width: 50px;
+}
+
+div {
+	background-color: #000;
+	width: 50px;
+	height: 10px;
+	padding: 20px 50px;
+}
+
+.cloud {
+	background-color: darkgray;
+	border-radius: 48px;
+	display: inline-block;
+	height: 16px;
+	position: relative;
+	width: 48px;
+
+}
+
+.cloud::before, .cloud::after {
+	background-color: lightgray;
+	border-radius: 50%;
+	content: '';
+	height: 14px;
+	position: absolute;
+	right: 7px;
+	top: -6px;
+	width: 14px;
+}
+
+.cloud::after {
+	background-color: lightgray;
+	left: 7px;
+	height: 23px;
+	right: auto;
+	top: -10px;
+	width: 23px;	
+}

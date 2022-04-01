@@ -1,0 +1,78 @@
+
+
+
+figure {
+	position: relative;
+}
+
+img {
+	display: block;
+	width: 400px;
+}
+
+figcaption {
+	bottom: 5px;
+	margin: 0 5px;
+	padding: 5px;
+	position: absolute;
+	width: 300px;
+	background-color: #000;
+	background-color: rgba(0, 0, 0,0.5);
+	color: #fff;
+}
+
+ul {
+	height: 35px;
+	list-style: none;
+	padding: 0;
+	width: 210px;
+	background-color: #44F;
+	color: white;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+}
+li {
+	float: left;
+	line-height: 35px;
+	font-size: 0.9em;
+	width: 50px;
+	text-align: center;
+	border-left: 1px solid rgba(255, 255, 255, 0.3);
+	border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+li:first-child {
+	border-left: none;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+div {
+	font-weight: bold;
+	height: 50px;
+	line-height: 25px;
+	margin-bottom: 10px;
+	padding: 5px;
+	text-align: center;
+	width: 220px;
+}
+
+.blue {
+background-color: #4377FA; /*alternativa para evitar ficar sem cor de fundo */	
+background-image: linear-gradient(to top, #4377FA, #0537B7);
+}
+.reverse-blue {
+
+background-image: linear-gradient(to top, #0537B7, #4377FA);
+}
+.omg-pink {
+box-shadow: 3px 3px 3px #AAA;
+background-image: linear-gradient(to top right, blue, lightgreen);
+}
+.stops {
+box-shadow: 3px 3px 3px #AAA;
+background-image: linear-gradient(to top, #F5B951 44%, #F2A31C 56%);
+}
+
+
